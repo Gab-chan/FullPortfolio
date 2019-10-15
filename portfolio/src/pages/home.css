@@ -53,3 +53,7 @@ body {
     -webkit-box-shadow: inset 0 0 60px #b3a670;
     box-shadow:         inset 0 0 60px #b3a670;
 }
+
+.statement{
+    color: white;
+}

@@ -55,26 +55,15 @@ handleClicked = id => {
       <div>
 
         <h3 className="heading">
-          Here are the most recent listings of tradeable items!
+          Pedro G Murillo
         </h3>
-        <Form className="searchbar-wrap">
-        <FormGroup>
-          <Label className="text1" for="exampleSearch">Looking for something in specific?</Label>
-          <Input
-            className="search-bar"
-            type="text"
-            name="search"
-            id="exampleSearch"
-            placeholder="Search by item name or username"
-            onChange={this.searchHandler}
-            value={term}
-          />
-        </FormGroup>
-      </Form>
+      
         <ModalExample items={this.state.items} item={this.state.itemClicked} sendEmailToHome={this.handleDataFromModal} handleClicked={this.handleClicked} newModal={this.state.modal} newToggle={this.toggle}></ModalExample>
         
         <ItemJumbotron className="jumbo-background">
-          <h1 className="preview-text"> Click An Item For More Info </h1> 
+        <Label className="text1" for="exampleSearch">About Me</Label>
+        <img className="logo" src="/box3.png" alt="logo"/>
+        <p className="statement">Front-End Web Developer with customer service background that makes for great communications skills and outstanding teamwork abilities. Recently earned a certificate in Full Stack Development from the University of Arizona, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. Capable of critical thinking, original problem solving skills and multi-task. My objective on each project is to produce an experience that can be fun for anyone interacting with my work. On my last project, I worked on the design of a website made with React.js and using mainly CSS for the visuals. Excited to learn new languages and tools that will help in the development of a long and fun carrier. Fluent and capable of writing in both english and spanish.</p>
         </ItemJumbotron>
       </div>
     );

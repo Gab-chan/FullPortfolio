@@ -27,7 +27,7 @@ export default class Example extends React.Component {
     return (
       <div className="nav-bar">
         <Navbar  light expand="md">
-        <NavLink href="/"><h1 className="brand"><img className="logo" src="/box3.png" alt="logo"/>GARAGE TRADER</h1></NavLink>
+        <NavLink href="/"><h1 className="brand"><img className="logo" src="https://cdn1.iconfinder.com/data/icons/portfolio-an-icon-1/164/4-512.png" alt="logo"/>Portfolio</h1></NavLink>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -35,7 +35,7 @@ export default class Example extends React.Component {
                 <NavLink className="nav-link" href="/"> About </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" href="/portfolio"> Portfolio</NavLink>
+                <NavLink className="nav-link" href="/projects"> Projects</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

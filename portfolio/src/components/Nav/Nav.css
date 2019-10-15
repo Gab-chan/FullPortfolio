@@ -24,9 +24,10 @@
 }
 
 .logo {
-    height: 4%;
-    width:4%;
+    height: 10%;
+    width:10%;
     margin-right: 15px;
+    float: left;
 
 }
 
