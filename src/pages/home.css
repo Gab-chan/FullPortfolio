@@ -19,8 +19,19 @@ body {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     color:lightcoral;
     text-align:center;
-    margin-top:3%;
     background-color: rgba(0,0,0,0.7);
+    margin-top:3%;
+    width: 300px;
+    height: 60px;
+    position: relative;
+    left: 10%;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+
+.heading-text{
+   padding: 10px;
 }
 
 .text1{
@@ -52,8 +63,10 @@ body {
     -moz-box-shadow:    inset 0 0 60px #b3a670;
     -webkit-box-shadow: inset 0 0 60px #b3a670;
     box-shadow:         inset 0 0 60px #b3a670;
+    padding-bottom: 150px;
 }
 
 .statement{
     color: white;
+    text-align: justify;
 }

@@ -52,18 +52,18 @@ handleClicked = id => {
   render() {
     const {term, items} = this.state;
     return (
-      <div>
+      <div className="main">
 
-        <h3 className="heading">
-          Pedro G Murillo
-        </h3>
+        <div className="heading">
+          <h3 className="heading-text">Pedro G Murillo</h3>
+        </div>
       
         <ModalExample items={this.state.items} item={this.state.itemClicked} sendEmailToHome={this.handleDataFromModal} handleClicked={this.handleClicked} newModal={this.state.modal} newToggle={this.toggle}></ModalExample>
         
         <ItemJumbotron className="jumbo-background">
         <Label className="text1" for="exampleSearch">About Me</Label>
         <img className="logo" src="/box3.png" alt="logo"/>
-        <p className="statement">Front-End Web Developer with customer service background that makes for great communications skills and outstanding teamwork abilities. Recently earned a certificate in Full Stack Development from the University of Arizona, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. Capable of critical thinking, original problem solving skills and multi-task. My objective on each project is to produce an experience that can be fun for anyone interacting with my work. On my last project, I worked on the design of a website made with React.js and using mainly CSS for the visuals. Excited to learn new languages and tools that will help in the development of a long and fun carrier. Fluent and capable of writing in both english and spanish.</p>
+        <p className="statement">Front-End Web Developer with customer service background that makes for great communications skills and outstanding teamwork abilities. Recently earned a certificate in Full Stack Development from the ,University of Arizona, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. Capable of critical thinking, original problem solving skills and multi-task. My objective on each project is to produce an experience that can be fun for anyone interacting with my work. On my last project, I worked on the design of a website made with React.js and using mainly CSS for the visuals. Excited to learn new languages and tools that will help in the development of a long and fun carrier. Fluent and capable of writing in both english and spanish.</p>
         </ItemJumbotron>
       </div>
     );
