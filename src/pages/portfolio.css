@@ -63,10 +63,6 @@ body {
     -moz-box-shadow:    inset 0 0 60px #b3a670;
     -webkit-box-shadow: inset 0 0 60px #b3a670;
     box-shadow:         inset 0 0 60px #b3a670;
-    padding-bottom: 150px;
+    padding-bottom: 500px;
 }
 
-.statement{
-    color: white;
-    text-align: justify;
-}
