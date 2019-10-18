@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import ItemJumbotron from "../components/ItemJumbotron";
+import Jumbotron from "../components/Jumbotron";
 import { Form, FormGroup, Label, Input, } from 'reactstrap';
 import ModalExample from "../components/Modal/index"
 
@@ -50,15 +50,17 @@ handleClicked = id => {
       
         <ModalExample items={this.state.items} item={this.state.itemClicked} sendEmailToHome={this.handleDataFromModal} handleClicked={this.handleClicked} newModal={this.state.modal} newToggle={this.toggle}></ModalExample>
         
-        <ItemJumbotron className="jumbo-background">
+        <Jumbotron className="jumbo-background">
         <img className="logo" src="/projectimage.jpg" alt="project1"/>
         <img className="logo" src="/maxresdefault.jpg" alt="trivia"/>
         <img className="logo" src="/free-easy-gifs.gif" alt="gify"/>
         <img className="logo" src="/banner_big_tpg.jpg" alt="banner"/>
         <img className="logo" src="/project2.jpg" alt="project2"/>
-        <img className="logo" src="/projectimage.jpg" alt="project2"/>
+        <img className="logo" src="/unit-4-game.jpg" alt="unit-4-game"/>
+        <img className="logo" src="/clickygame.jpg" alt="clickygame"/>
+        <img className="logo" src="/project3.jpg" alt="project3"/>
         
-        </ItemJumbotron>
+        </Jumbotron>
       </div>
     );
   }
