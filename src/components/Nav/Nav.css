@@ -1,12 +1,12 @@
 .nav-bar {
-    background: linear-gradient(to left, lightblue 15%, #1f1908 35%);
+    background: linear-gradient(to left, lightgray 15%, #1f1908 35%);
     border-bottom:2px solid;
     border-top:2px solid;
     z-index:15;
 }
 
 .brand {
-    color: lightblue;
+    color: lightgray;
     font-size:1.6rem;
     transition: 0.2s;
     font-family: 'Lora', serif;
@@ -14,7 +14,7 @@
 }
 
 .brand:hover {
-    color:lightblue;
+    color:lightgray;
 }
 
 .nav-link {

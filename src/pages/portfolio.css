@@ -63,6 +63,112 @@ body {
     -moz-box-shadow:    inset 0 0 60px #b3a670;
     -webkit-box-shadow: inset 0 0 60px #b3a670;
     box-shadow:         inset 0 0 60px #b3a670;
-    padding-bottom: 700px;
+    padding-bottom: 250px;
+}
+
+.div1{
+    height: auto;
+    position: relative;
+    left: 10%;
+    top: 15px;
+}
+
+.project1{
+    position: relative;
+    top: 100px;
+    right: 8%;
+}
+
+.div2{
+    position: relative;
+    top: 110px;
+    right: 1%;
+}
+
+.TriviaGame{
+    position: relative;
+    top: 100px;
+    right: 8%;
+}
+
+.div3{
+    position: relative;
+    bottom: 65px;
+    left: 4%;
+}
+
+.psychic{
+    position: relative;
+    top: 105px;
+    right: 9%;
+}
+
+.div4{
+    position: relative;
+    top: 40px;
+    right: 7%;
+}
+
+.unit4{
+    position: relative;
+    top: 175px;
+    right: 9%;
+}
+
+.div5{
+    position: relative;
+    bottom: 145px;
+    right: 2%;
+}
+
+.gif{
+    position: relative;
+    top: 135px;
+    right: 8%;
+}
+
+.div6{
+    position: relative;
+    bottom: 10px;
+    right: 13%;
+}
+
+.project2{
+    position: relative;
+    top: 105px;
+    right: 8%;
+}
+
+.div7{
+    position: relative;
+    bottom: 200px;
+    right: 8%;
+}
+
+.clicky{
+    position: relative;
+    top: 105px;
+    right: 8%;
+}
+
+.div8{
+    position: relative;
+    bottom: 90px;
+    right: 19%;
+}
+
+.project3{
+    position: relative;
+    top: 170px;
+    right: 8%;
+}
+
+.note{
+    font-size:1.5rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color:lightcoral;
+    font-family:cursive;
+    text-align:center;
+    margin-top: 1%;
 }
 
