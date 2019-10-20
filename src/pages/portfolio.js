@@ -102,7 +102,7 @@ handleClicked = id => {
         
         </Jumbotron>
 
-        <h3 className="note">Note: Please press the images to watch the launch projects and the text to watch the GitHub repo's.</h3>
+        <h3 className="note">Note: Please press the images to watch the launch projects and the text to see the GitHub repo's.</h3>
       </div>
     );
   }
