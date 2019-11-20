@@ -1,7 +1,7 @@
 .header-component{
     font-size:2rem;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-    color:yellow;
+    color:lightcoral;
     font-family:cursive;
     text-align:center;
     background-color: rgba(0,0,0,0.7);
@@ -10,4 +10,11 @@
 .footer-component{
     font-size:2rem;
     background-color: rgba(0,0,0,0.7);
+}
+
+.text{
+    
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color:yellow;
+    font-family:cursive
 }

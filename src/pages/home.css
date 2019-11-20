@@ -70,3 +70,13 @@ body {
     color: white;
     text-align: justify;
 }
+
+.contact{
+    text-align: left;
+    margin-top: 2%;
+}
+
+.tech{
+    margin-top: 1%;
+    float: left;
+}
