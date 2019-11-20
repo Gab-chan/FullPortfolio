@@ -34,15 +34,6 @@ class Portfolio extends React.Component {
 
 
         <br></br>
-        <div className="div3">
-        <a href="https://gab-chan.github.io/Psychic-Game/">
-        <img className="logo" src="/banner_big_tpg.jpg" alt="banner"/>
-        </a>
-        <a href="https://github.com/Gab-chan/Psychic-Game"> <p className="psychic">PsychicGame</p></a>
-        </div>
-
-
-        <br></br>
         <div className="div4">
         <a href="https://gab-chan.github.io/Unit-4-Game/">
         <img className="logo" src="/unit-4-game.jpg" alt="unit-4-game"/>
@@ -77,7 +68,7 @@ class Portfolio extends React.Component {
         <a href="https://github.com/Gab-chan/ClickyGame"> <p className="clicky">ClickyGame</p></a>
         </div>
 
-        
+
         <br></br>
         <div className="div8">
         <a href="https://protected-shelf-46012.herokuapp.com">
