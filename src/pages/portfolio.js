@@ -20,7 +20,7 @@ class Portfolio extends React.Component {
         <br></br>
         <a href="https://gab-chan.github.io/Project-1/"><img className="logo" src="/projectimage.jpg" alt="project1"/>
         </a>
-        <a href="https://github.com/Gab-chan/Project-1"><p className="project1">Project-1</p></a>
+        <a href="https://github.com/Gab-chan/Project-1"><p className="project1">GameHunt</p></a>
         </div>
 
         <div className="desk">
@@ -33,11 +33,11 @@ class Portfolio extends React.Component {
         <a href="https://gab-chan.github.io/TriviaGame/">
         <img className="logo" src="/maxresdefault.jpg" alt="trivia"/>
         </a>
-        <a href="https://github.com/Gab-chan/TriviaGame"> <p className="TriviaGame">TriviaGame</p></a>
+        <a href="https://github.com/Gab-chan/TriviaGame"> <p className="TriviaGame">AnimeTrivia</p></a>
         </div>
 
         <div className="desk">
-       <p>Anime trivia is a quiz which displays multiple choice questions about different animes. After answering the questions the score will display, but you need to know that there is a timer, if you do not finished before the time is up then you will failed the quiz.<br></br>Technologies: HTML/CSS, JavaScript, JQuery, BootStrap and VS CODE.</p> 
+       <p>AnimeTrivia is a quiz which displays multiple choice questions about different animes. After answering the questions the score will display, but you need to know that there is a timer, if you do not finished before the time is up then you will failed the quiz.<br></br>Technologies: HTML/CSS, JavaScript, JQuery, BootStrap and VS CODE.</p> 
         </div>
 
 
@@ -46,7 +46,7 @@ class Portfolio extends React.Component {
         <a href="https://gab-chan.github.io/Unit-4-Game/">
         <img className="logo" src="/unit-4-game.jpg" alt="unit-4-game"/>
         </a>
-        <a href="https://github.com/Gab-chan/Unit-4-Game"> <p className="unit4">Unit-4-Game</p></a>
+        <a href="https://github.com/Gab-chan/Unit-4-Game"> <p className="unit4">Magical girl collector</p></a>
         </div>
 
         <div className="desk">
@@ -72,7 +72,7 @@ class Portfolio extends React.Component {
         <a href="https://rocky-earth-06157.herokuapp.com/">
         <img className="logo" src="/project2.jpg" alt="project2"/>
         </a>
-        <a href="https://github.com/KPJBuchik/Project2"> <p className="project2">Project-2</p></a>
+        <a href="https://github.com/KPJBuchik/Project2"> <p className="project2">Poketron</p></a>
         </div>
 
         <div className="desk">
@@ -85,7 +85,7 @@ class Portfolio extends React.Component {
         <a href="https://morning-bayou-09465.herokuapp.com/">
         <img className="logo" src="/clickygame.jpg" alt="clickygame"/>
         </a>
-        <a href="https://github.com/Gab-chan/ClickyGame"> <p className="clicky">ClickyGame</p></a>
+        <a href="https://github.com/Gab-chan/ClickyGame"> <p className="clicky">My hero clicky game</p></a>
         </div>
 
         <div className="desk">
@@ -98,7 +98,7 @@ class Portfolio extends React.Component {
         <a href="https://protected-shelf-46012.herokuapp.com">
         <img className="logo" src="/project3.jpg" alt="project3"/>
         </a>
-        <a href="https://github.com/tannerbodrero/project-3"> <p className="project3">Project-3</p></a>
+        <a href="https://github.com/tannerbodrero/project-3"> <p className="project3">Garage-Trader</p></a>
         </div>
 
         <div className="desk">
