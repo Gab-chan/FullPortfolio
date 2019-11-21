@@ -23,8 +23,8 @@ const ModalExample = (props) => {
           <p className="text">
           Name: Pedro Gabriel Murillo Costa<br></br>
           Email: pedromurillo96@gmail.com<br></br>
-          GitHub: https://github.com/Gab-chan<br></br>
-          LinkedIn: https://www.linkedin.com/in/pedro-murillo-568697188/<br></br>
+          <a className="text" href="https://github.com/Gab-chan">GitHub: https://github.com/Gab-chan</a><br></br>
+          <a className="text" href="https://www.linkedin.com/in/pedro-murillo-568697188/">LinkedIn: https://www.linkedin.com/in/pedro-murillo-568697188/</a><br></br>
           </p>
         </ModalBody>
         <ModalFooter className="footer-component">

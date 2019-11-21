@@ -38,6 +38,7 @@ const ModalExample2 = (props) => {
           <Button color="secondary" onClick={toggle}>Cancel</Button>
         </ModalFooter>
       </Modal>
+      
     </div>
   );
 }

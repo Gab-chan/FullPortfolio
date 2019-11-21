@@ -68,7 +68,7 @@ body {
 
 
  .div1{
-    margin-left: 2%;
+    margin-left: 5%;
     clear: both;
     
 }
@@ -79,6 +79,7 @@ body {
 }
 
 .div2{
+    margin-left: 5%;
     clear: both;
 }
 
@@ -88,6 +89,7 @@ body {
 }
 
 .div4{
+    margin-left: 5%;
     clear: both;
 }
 
@@ -97,14 +99,17 @@ body {
 }
 
 .div5{
+    margin-left: 5%;
     clear: both;
 }
 
 .gif{
+    float: left;
     clear: both;
 }
 
 .div6{
+    margin-left: 5%;
     clear: both;
 }
 
@@ -114,6 +119,7 @@ body {
 }
 
 .div7{
+    margin-left: 5%;
     clear: both;
 }
 
@@ -123,6 +129,7 @@ body {
 }
 
 .div8{
+    margin-left: 5%;
     clear: both;
 }
 
@@ -140,3 +147,12 @@ body {
     
 }
 
+.desk{
+    font-size:1.0rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color:lightgreen;
+    font-family:cursive;
+    
+    
+    
+}
